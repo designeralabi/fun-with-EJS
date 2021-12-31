@@ -1,3 +1,7 @@
+*{
+    line-height: 1.4rem;  
+}
+
 body{
     background-color: blue;
     color: #fff;

@@ -19,6 +19,9 @@ app.get('/contact', (req, res) => {
     res.render('contact', {title: 'contact'});
 });
 
+app.use((req, res)=>{
+    res.render('404', {title: '404'});
+})
 
 
 app.listen(port, () => console.log(`Sever listening on port ${port}!`));
